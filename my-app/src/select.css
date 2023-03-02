@@ -1,0 +1,45 @@
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.playlist-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.playlist {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.playlist:hover {
+    background-color: #ddd;
+}
+
+.selected {
+    background-color: #1db954;
+    color: #fff;
+}
+
+.quiz-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #1db954;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.quiz-link:hover {
+    background-color: #0e8e36;
+}
